@@ -1,5 +1,6 @@
 from fastapi import FastAPI
 from utils.config import settings
+from db import database
 
 app = FastAPI()
 
